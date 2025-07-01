@@ -1,0 +1,22 @@
+/target
+
+node_modules/
+
+# Wallets and private keys
+*.json
+!programs/*.json  # If you need to keep program IDLs, remove this line
+
+# Environment variables
+.env
+
+# Build artifacts
+dist/
+build/
+out/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
