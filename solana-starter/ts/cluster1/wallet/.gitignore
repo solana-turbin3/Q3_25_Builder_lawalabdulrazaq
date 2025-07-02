@@ -1,0 +1,6 @@
+
+*wallet.json
+
+# Wallets and private keys
+*.json
+!programs/*.json  # If you need to keep program IDLs, remove this line
