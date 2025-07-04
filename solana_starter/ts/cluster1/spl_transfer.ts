@@ -45,6 +45,7 @@ const token_decimals = 1_000_000n; // 6 decimals for the token
             keypair.publicKey,
             10n * token_decimals
         );
+        console.log(`Transfer tx signature: ${tx}`);
     } catch(e) {
         console.error(`Oops, something went wrong: ${e}`)
     }
