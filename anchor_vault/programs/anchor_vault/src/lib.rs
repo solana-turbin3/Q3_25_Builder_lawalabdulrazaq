@@ -87,7 +87,6 @@ impl<'info> Withdraw<'info> {
     }
 } 
 
-
 #[derive(Accounts)]
 pub struct Initialize<'info> {
     #[account(
