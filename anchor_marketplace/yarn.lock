@@ -40,9 +40,9 @@
     buffer-layout "^1.2.0"
 
 "@noble/curves@^1.4.2":
-  version "1.9.2"
-  resolved "https://registry.yarnpkg.com/@noble/curves/-/curves-1.9.2.tgz#73388356ce733922396214a933ff7c95afcef911"
-  integrity sha512-HxngEd2XUcg9xi20JkwlLCtYwfoFw4JGkuZpT+WlsPD4gB/cxkvTD8fSsoAnphGZhFdZYKeQIPCuFlWPm1uE0g==
+  version "1.9.4"
+  resolved "https://registry.yarnpkg.com/@noble/curves/-/curves-1.9.4.tgz#a748c6837ee7854a558cc3b951aedd87a5e7d6a5"
+  integrity sha512-2bKONnuM53lINoDrSmK8qP8W271ms7pygDhZt4SiLOoLwBtoHqeCFi6RG42V8zd3mLHuJFhU/Bmaqo4nX0/kBw==
   dependencies:
     "@noble/hashes" "1.8.0"
 
@@ -58,28 +58,28 @@
   dependencies:
     buffer "~6.0.3"
 
-"@solana/codecs-core@2.2.0":
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@solana/codecs-core/-/codecs-core-2.2.0.tgz#32c22076879d6998ae4a3d17c6b7074f8c8be4d9"
-  integrity sha512-XRrxXy9oz3Q0jAHpeaHcqFDlGTzSabjijdMWjj1v20y6jw5oH0e5QjuafX3s2scJiKo5fBWmcVbod2Qd+niWxQ==
+"@solana/codecs-core@2.3.0":
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/@solana/codecs-core/-/codecs-core-2.3.0.tgz#6bf2bb565cb1ae880f8018635c92f751465d8695"
+  integrity sha512-oG+VZzN6YhBHIoSKgS5ESM9VIGzhWjEHEGNPSibiDTxFhsFWxNaz8LbMDPjBUE69r9wmdGLkrQ+wVPbnJcZPvw==
   dependencies:
-    "@solana/errors" "2.2.0"
+    "@solana/errors" "2.3.0"
 
 "@solana/codecs-numbers@^2.1.0":
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@solana/codecs-numbers/-/codecs-numbers-2.2.0.tgz#47940c0388cc9503f899570fa1fb62d6330ee690"
-  integrity sha512-i6HIXOpEfC3j0yeD1lpHzsvzeZ16NQ//blDxn4q+BpE8JSydm4L+X2rxJpQ05rmzYtDDE8pnKA2Ub0f8oMLU5w==
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/@solana/codecs-numbers/-/codecs-numbers-2.3.0.tgz#ac7e7f38aaf7fcd22ce2061fbdcd625e73828dc6"
+  integrity sha512-jFvvwKJKffvG7Iz9dmN51OGB7JBcy2CJ6Xf3NqD/VP90xak66m/Lg48T01u5IQ/hc15mChVHiBm+HHuOFDUrQg==
   dependencies:
-    "@solana/codecs-core" "2.2.0"
-    "@solana/errors" "2.2.0"
+    "@solana/codecs-core" "2.3.0"
+    "@solana/errors" "2.3.0"
 
-"@solana/errors@2.2.0":
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@solana/errors/-/errors-2.2.0.tgz#ddfe3aa2e354305a3c13c94997ca440196c05d4e"
-  integrity sha512-KItyBPyhRdSeGr8HLeMDSUiVCpwY1pr1evBmqs+IFN6BNWmFDplvROzc/HLqTmeM6D5JauuoYIYqtO81IL65pg==
+"@solana/errors@2.3.0":
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/@solana/errors/-/errors-2.3.0.tgz#4ac9380343dbeffb9dffbcb77c28d0e457c5fa31"
+  integrity sha512-66RI9MAbwYV0UtP7kGcTBVLxJgUxoZGm8Fbc0ah+lGiAw17Gugco6+9GrJCV83VyF2mDWyYnYM9qdI3yjgpnaQ==
   dependencies:
     chalk "^5.4.1"
-    commander "^13.1.0"
+    commander "^14.0.0"
 
 "@solana/web3.js@^1.69.0":
   version "1.98.2"
@@ -139,9 +139,9 @@
   integrity sha512-Z61JK7DKDtdKTWwLeElSEBcWGRLY8g95ic5FoQqI9CMx0ns/Ghep3B4DfcEimiKMvtamNVULVNKEsiwV3aQmXw==
 
 "@types/node@*":
-  version "24.0.11"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-24.0.11.tgz#ea6d221eecc9f30f6a9af6ae10e2702b3a1b42cf"
-  integrity sha512-CJV8eqrYnwQJGMrvcRhQmZfpyniDavB+7nAZYJc6w99hFYJyFN3INV1/2W3QfQrqM36WTLrijJ1fxxvGBmCSxA==
+  version "24.0.14"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-24.0.14.tgz#6e3d4fb6d858c48c69707394e1a0e08ce1ecc1bc"
+  integrity sha512-4zXMWD91vBLGRtHK3YbIoFMia+1nqEz72coM42C5ETjnNCa/heoj7NT1G67iAfOqMmcfhuCZ4uNpyz8EjlAejw==
   dependencies:
     undici-types "~7.8.0"
 
@@ -383,10 +383,10 @@ color-name@~1.1.4:
   resolved "https://registry.yarnpkg.com/color-name/-/color-name-1.1.4.tgz#c2a09a87acbde69543de6f63fa3995c826c536a2"
   integrity sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==
 
-commander@^13.1.0:
-  version "13.1.0"
-  resolved "https://registry.yarnpkg.com/commander/-/commander-13.1.0.tgz#776167db68c78f38dcce1f9b8d7b8b9a488abf46"
-  integrity sha512-/rFeCpNJQbhSZjGVwO9RFV3xPqbnERS8MmIQzCtD/zl6gpJuV/bMLuN92oG3F7d8oDEHHRrujSXNUr8fpjntKw==
+commander@^14.0.0:
+  version "14.0.0"
+  resolved "https://registry.yarnpkg.com/commander/-/commander-14.0.0.tgz#f244fc74a92343514e56229f16ef5c5e22ced5e9"
+  integrity sha512-2uM9rYjPvyq39NwLRqaiLtWHyDC1FvryJDa2ATTVims5YAS4PupsEQsDvP14FqhFr0P49CYDugi59xaxJlTXRA==
 
 commander@^2.20.3:
   version "2.20.3"
