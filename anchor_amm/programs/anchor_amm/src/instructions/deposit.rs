@@ -1,3 +1,4 @@
+#[warn(unused_must_use)]
 use anchor_lang::prelude::*;
 use anchor_spl::{associated_token::AssociatedToken, token::{Transfer, transfer, Mint, Token, TokenAccount, MintTo, mint_to}};
 use constant_product_curve::ConstantProduct;
@@ -86,8 +87,8 @@ impl<'info> Deposit<'info> {
 
         require!(x <= max_x && y <= max_y, AmmError::SlippageExceeded);
 
-        self.deposit_tokens(true, x);
-        self.deposit_tokens(false, y);
+        let _ = self.deposit_tokens(true, x);
+        let _ = self.deposit_tokens(false, y);
 
         self.mint_lp_tokens(amount) 
     }
